@@ -1,6 +1,9 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*permet de changer la police*/
     line-height: 1.5; /*permet de changer l'espace entre lignes et*/
+    background-color: beige;
+    border-radius: 0cap;
+    padding: 0ch;
 }
 
 h1{
