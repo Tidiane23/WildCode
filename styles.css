@@ -18,3 +18,7 @@ h2{
 li{
     color: #e54a29;
 }
+
+img {
+    outline: 2px dashed blue;
+  }
