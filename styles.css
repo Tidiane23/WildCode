@@ -25,3 +25,7 @@ li{
 img {
     outline: 2px dashed blue;
   }
+
+  p{
+    outline: 2px dashed blue;
+  }
