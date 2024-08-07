@@ -9,14 +9,17 @@ body{
 
 h1{
     color: #af230f;
+    outline: 2px dashed blue;
 }
 
 h2{
     color: #a92a0c;
+    outline: 2px dashed blue;
 }
 
 li{
     color: #e54a29;
+    outline: 2px dashed blue;
 }
 
 img {
