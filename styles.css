@@ -2,3 +2,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*permet de changer la police*/
     line-height: 1.5; /*permet de changer l'espace entre lignes et*/
 }
+
+h1{
+    color: #af230f;
+}
