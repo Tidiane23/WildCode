@@ -4,7 +4,7 @@ body{
     background-color: beige;
     border-radius: 30px;
     padding: 10px 50px 20px;
-    align-content: center;
+    align-content: space-around;
 }
 
 h1{
