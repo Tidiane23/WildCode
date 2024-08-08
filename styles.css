@@ -19,11 +19,11 @@ ul{
         color: #e54a29;
         list-style: none;
         background-color: #d1b149;
+        border-radius: 30px;
+        padding: 10px 50px 20px;
     }
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    border-radius: 30px;
-    padding: 10px 50px 20px;
 }
 
