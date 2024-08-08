@@ -24,7 +24,7 @@
     </p>
 
     <h2>Ils sont déjà inscrits</h2>
-    <ul>
+    <!--<ul>
         <li>
             <img src="https://avatar.iran.liara.run/public/boy?username=John" alt="John">
             <p>John</p>
@@ -61,7 +61,25 @@
             <img src="https://avatar.iran.liara.run/username?username=Charlie+Townsend" alt="Charlie Townsend">
             <p>Charlie Townsend</p>
         </li>
-    </ul>
+    </ul>-->
+
+    <script>
+        const participants = [
+            {nom: 'sofia', avatar: 'public/girl'},
+            {nom: 'Gabriel', avatar: 'public/boy'},
+            {nom: 'Leila', avatar: 'public/girl'},
+            {nom: 'Kenji', avatar: 'public/boy'},
+            {nom: 'Tim', avatar: 'username'}, 
+        ]
+    </script>
+    <!--<script id="template" type="x-tmpl-mustache">
+        {{#participants}}
+        <li>
+            <img src="https://avatar.iran.liara.run/{{avatar}}?username={{nom}}" alt="{{nom}}">
+            <p>{{ nom }}</p>
+        </li>
+        {{/participants}}
+    </script>-->
     </main>
 </body>
 </html>
