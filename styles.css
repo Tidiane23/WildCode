@@ -21,7 +21,7 @@ ul{
         color: #e54a29;
         outline: 2px dashed blue;
     }
-    outline: 2px dashed blue;
+    display: grid;
 }
 
 img {
