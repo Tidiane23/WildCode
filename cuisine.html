@@ -70,7 +70,7 @@
     <h2>Dégustation</h2>
     <p>À déguster froids ou encore tièdes.</p>
 
-    <form>
+    <form id="Donner Votre Avis">
         <h2>Donnez votre avis</h2>
         <label for="nom">Votre nom</label>
         <input type="text" id="nom" required>
@@ -93,7 +93,7 @@
             alert(`Merci ${nom} pour votre avis. Vous avez noté cette recette ${note} étoile(s).`);
         }
         
-        document.getElementById('monFormulaire').addEventListener('submit', afficherAvis);
+        document.getElementById('Donner Votre Avis').addEventListener('submit', afficherAvis);
     </script>
 </body>
 </html>
