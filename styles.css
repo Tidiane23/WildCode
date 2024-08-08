@@ -19,8 +19,8 @@ ul{
         color: #e54a29;
         list-style: none;
         background-color: #ffdab9;
-        border-radius: 10px;
-        padding: 20px 10px 20px;
+        border-radius: 20px;
+        padding: 20px 20px 20px;
         text-align: center;
     }
     display: grid;
