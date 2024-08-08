@@ -20,7 +20,7 @@ ul{
         list-style: none;
         background-color: #ffdab9;
         border-radius: 20px;
-        padding: 2px 10px 2px;
+        padding: 2px 1px 2px;
         text-align: center;
     }
     display: grid;
