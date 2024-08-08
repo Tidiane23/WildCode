@@ -63,7 +63,7 @@
         </li>-->
     </ul>
 
-    <script>
+    <!--<script>
         const participants = [
             {nom: 'sofia', avatar: 'public/girl'},
             {nom: 'Gabriel', avatar: 'public/boy'},
@@ -78,6 +78,26 @@
             <img src="https://avatar.iran.liara.run/{{avatar}}?username={{nom}}" alt="{{nom}}">
             <p>{{ nom }}</p>
         </li>
+        {{/participants}}
+    </script>-->
+
+    <ul>
+    </ul>
+    <script>
+        const participants = [
+            { nom: 'Sofia', avatar: 'public/girl' },
+            { nom: 'Gabriel', avatar: 'public/boy' },
+            { nom: 'Leila', avatar: 'public/girl' },
+            { nom: 'Kenji', avatar: 'public/boy' },
+            { nom: 'Tim', avatar: 'username' },
+        ]
+    </script>
+    <script id="template" type="x-tmpl-mustache">
+        {{#participants}}
+            <li>
+                <img src="https://avatar.iran.liara.run/{{avatar}}?username={{nom}}" alt="{{nom}}">
+                <p>{{ nom }}</p>
+            </li>
         {{/participants}}
     </script>
     </main>
