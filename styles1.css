@@ -28,14 +28,12 @@ h2{
 
 
 script{
-    li{
-        list-style: none;
-        text-align: center;
-    }
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 0;
     gap: 20px;
+    list-style: none;
+    text-align: center;
 }
 p{
     text-align: center;
