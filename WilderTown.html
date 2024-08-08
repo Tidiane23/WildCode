@@ -100,6 +100,38 @@
             </li>
         {{/participants}}
     </script>-->
+
+
+    <ul id="participants-list">
+    </ul>
+    
+    <script>
+        const participants = [
+            { nom: 'Sofia', avatar: 'public/girl' },
+            { nom: 'Gabriel', avatar: 'public/boy' },
+            { nom: 'Leila', avatar: 'public/girl' },
+            { nom: 'Kenji', avatar: 'public/boy' },
+            { nom: 'Tim', avatar: 'username' },
+        ];
+    
+        // Récupérer le contenu du template
+        const template = document.getElementById('template').innerHTML;
+    
+        // Rendre le template avec les données des participants
+        const rendered = Mustache.render(template, { participants });
+    
+        // Insérer le résultat dans le DOM
+        document.getElementById('participants-list').innerHTML = rendered;
+    </script>
+    
+    <script id="template" type="x-tmpl-mustache">
+        {{#participants}}
+            <li>
+                <img src="https://avatar.iran.liara.run/{{avatar}}?username={{nom}}" alt="{{nom}}">
+                <p>{{nom}}</p>
+            </li>
+        {{/participants}}
+    </script>
     </main>
 </body>
 </html>
