@@ -21,7 +21,9 @@ ul{
         background-color: #ffdab9;
         border-radius: 20px;
         padding: 50px 10px 50px;
-        align-content: center;
+        img{
+            align-content: center;
+        }
     }
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
