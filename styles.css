@@ -22,6 +22,8 @@ ul{
         outline: 2px dashed blue;
     }
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 img {
