@@ -19,7 +19,7 @@ ul{
         color: #e54a29;
         list-style: none;
         background-color: #ffdab9;
-        border-radius: 30px;
+        border-radius: 10px;
         padding: 10px 50px 2px;
     }
     display: grid;
