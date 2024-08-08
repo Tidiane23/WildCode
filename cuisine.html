@@ -84,5 +84,16 @@
     
         <button type="submit">Je donne mon avis</button>
     </form>
+
+    <script>
+        function afficherAvis(event) {
+            event.preventDefault();
+            const nom = document.getElementById('nom').value;
+            const note = document.getElementById('choix').value;
+            alert(`Merci ${nom} pour votre avis. Vous avez noté cette recette ${note} étoile(s).`);
+        }
+        
+        document.getElementById('monFormulaire').addEventListener('submit', afficherAvis);
+    </script>
 </body>
 </html>
