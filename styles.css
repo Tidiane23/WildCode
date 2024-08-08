@@ -18,12 +18,11 @@ ul{
     li{
         color: #e54a29;
         list-style: none;
-        border-radius: 30px;
-        padding: 10px 50px 20px;
     }
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-
+    border-radius: 30px;
+    padding: 10px 50px 20px;
 }
 
